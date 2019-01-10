@@ -29,7 +29,7 @@ public class NlpirTest {
 	 */
 	@Test
 	public void testFileProcess(){
-		double flag = Nlpir.NLPIR_FileProcess("C:\\Users\\jia\\Desktop\\corpus.txt", "C:\\Users\\jia\\Desktop\\resultbig.txt", 0);
+		double flag = Nlpir.NLPIR_FileProcess("C:\\Users\\jia\\Desktop\\corpus.txt", "C:\\Users\\jia\\Desktop\\result.txt", 0);
 		System.out.println(flag);
 	}
 

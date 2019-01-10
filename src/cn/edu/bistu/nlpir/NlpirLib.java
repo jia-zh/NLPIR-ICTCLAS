@@ -10,7 +10,7 @@ import com.sun.jna.Native;
  */
 public interface NlpirLib extends Library {
 	// 定义并初始化接口的静态变量，通过JNA调用NLPIR.dll;
-	NlpirLib Instance = (NlpirLib) Native.loadLibrary("ICTCLASConf/NLPIR", NlpirLib.class);
+	NlpirLib Instance = (NlpirLib) Native.loadLibrary("conf/NLPIR", NlpirLib.class);
 
 	/**
 	 * 组件初始化

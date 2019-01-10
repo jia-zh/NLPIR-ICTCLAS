@@ -8,7 +8,7 @@ package cn.edu.bistu.nlpir;
 public class Nlpir {
 	// 初始化
 	static {
-		boolean flag = NlpirLib.Instance.NLPIR_Init("ICTCLASConf/", 1, "");
+		boolean flag = NlpirLib.Instance.NLPIR_Init("conf/", 1, "");
 
 		if (flag) {
 			System.out.println("nlpir初始化成功");
